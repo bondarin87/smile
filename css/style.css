@@ -1,0 +1,54 @@
+body {
+    background-color: orangered;
+}
+
+.parent {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+.child {
+    background-color: orangered;
+    position: absolute;
+   
+
+}
+
+.ojo1 {
+    width: 90px;
+    height: 90px;
+    top: 100px;
+    left: 120px;
+    border-radius: 50%;
+    z-index:2 ;
+}
+.ojo2 {
+    width: 90px;
+    height: 90px;
+    top: 100px;
+    right: 120px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.boca {
+    border-radius: 50%;
+    bottom: 55px;
+    left: 76px;
+    width: 350px;
+    height: 350px;
+}
+.tapa {
+    position: absolute;
+    background-color: black;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    left: 61px;
+    top: 40px;
+    z-index: ;
+}
